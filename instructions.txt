@@ -1,0 +1,6 @@
+The folder named 'data', includes two subfolders, images that has reference images. and queries has query images.
+After running the program, trained model is created in the form of pickle file.
+'features.py' file, will extract the features from given set of images.
+In 'search.py' file similarity score between the query image and reference image is calculated using the 'hamming', 'cosine' and 'wasserstein' distance metrics.
+You can mention the 'max_query' images for testing.
+Finally result is stored in a csv file.
